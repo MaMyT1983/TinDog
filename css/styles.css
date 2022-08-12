@@ -165,6 +165,21 @@ p {
 }
 
 @media (max-width: 1028px) {
+
+  p {
+    font-size: 1.8rem;
+  }
+
+  em {
+    font-size: 1.5rem;
+  }
+
+/* Title Section */
+
+.navbar-toggler-icon-lg {
+  width: 3rem;
+}
+
   #title .container-fluid {
     text-align: center;
   }
@@ -174,11 +189,30 @@ p {
     transform: rotate(0);
   }
 
-  .testimonial-image {
-    width: 25%;
+  /* Features Section */
+
+  .icon {
+    font-size: 8rem;
   }
+
+  .feature-title {
+    font-size: 3rem;
+  }
+
+/* Testimonials Section */
+
+  .testimonial-image {
+    width: 30%;
+  }
+
+/* Pricing Section */
+
+.price-heading {
+  font-size: 3rem;
+}
 
   .footer-icon {
     font-size: 1.5rem;
   }
+
 }
