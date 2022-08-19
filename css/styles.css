@@ -205,6 +205,13 @@ p {
     width: 30%;
   }
 
+  /* Press Section */
+
+#press {
+  position: relative;
+  bottom: 2px;
+}
+  
 /* Pricing Section */
 
 .price-heading {
